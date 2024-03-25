@@ -9,7 +9,7 @@ const app=express();
 databaseConnect();
 
 app.use(cors({credentials:true,
-origin:"http://localhost:3000"
+origin:"https://frontend-enjl.onrender.com"
 // origin:"http:localhost:3000"
 }));
 
