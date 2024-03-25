@@ -8,7 +8,7 @@ const mongoConnect=async()=>{
     }
     catch(error)
     {
-        console.log("Unable to connect database",error);
+        console.log("Unable to connect database:",error);
     }
 };
 
